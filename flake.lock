@@ -74,11 +74,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1769113907,
-        "narHash": "sha256-kqokDnWtT3+dHUzmUAzNkKZ+DRjcrgpt/BxTMBUy8f0=",
+        "lastModified": 1769113956,
+        "narHash": "sha256-Co4I2jw2wH3IwaR3XEvYEEkDhWfxe8Xo1CbUyMhaLlY=",
         "owner": "dkuettel",
         "repo": "hashes-dep",
-        "rev": "ca0cf16343a8fb7e9a458ae7535b54e99f3aa1fd",
+        "rev": "5dd043d943a2ec5e9cfd04d0c1b6d9b3d66a0a23",
         "type": "github"
       },
       "original": {
