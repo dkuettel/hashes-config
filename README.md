@@ -2,6 +2,13 @@
 
 ## setup
 
+You need the two repositories at
+
+- git@github.com:dkuettel/hashes-main.git
+- git@github.com:dkuettel/hashes-dep.git
+
+And you need to be able to push to it. It's easiest if you make two forks and adapt the urls below.
+
 Clone both repositories into a common folder on machine A:
 
 ``` bash
