@@ -12,9 +12,9 @@
       self,
       nixpkgs,
       flake-utils,
-      nvim,
+      dep,
     }:
     flake-utils.lib.eachDefaultSystem (system: {
-      packages.default = nvim.packages.${system}.default;
+      packages.default = dep.packages.${system}.default;
     });
 }
