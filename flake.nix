@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:dkuettel/nixpkgs/stable";
     flake-utils.url = "github:numtide/flake-utils";
-    nvim.url = "github:dkuettel/hashes-dep/main";
+    dep.url = "github:dkuettel/hashes-dep/main";
   };
 
   outputs =
