@@ -41,3 +41,5 @@ cd hashes/main
 ```
 
 You should see hash mismatches. This seems to happen as long as on machine A in `go` you do _any_ one of the `nix * ...` commands.
+
+It only happens when `dep` has a submodule. But the submodule doesn't have to be checked out.
