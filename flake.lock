@@ -1,5 +1,25 @@
 {
   "nodes": {
+    "dep": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1769194248,
+        "narHash": "sha256-7GbSxPgTtXcb3Rr7u8VnN9aGhLCwyAkK2djbDq88kAI=",
+        "owner": "dkuettel",
+        "repo": "hashes-dep",
+        "rev": "fadf114e3e9b204d14d58876ce3efb7a83f935f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dkuettel",
+        "ref": "main",
+        "repo": "hashes-dep",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -68,31 +88,11 @@
         "type": "github"
       }
     },
-    "nvim": {
-      "inputs": {
-        "flake-utils": "flake-utils_2",
-        "nixpkgs": "nixpkgs_2"
-      },
-      "locked": {
-        "lastModified": 1769192481,
-        "narHash": "sha256-KdsDJuuUOVOQ9+xbbNo5n8g3Qy0VWMsIhc6XMOHEiwg=",
-        "owner": "dkuettel",
-        "repo": "hashes-dep",
-        "rev": "5840002285834d2283f64ebfaf9b4a9a2d634248",
-        "type": "github"
-      },
-      "original": {
-        "owner": "dkuettel",
-        "ref": "main",
-        "repo": "hashes-dep",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs",
-        "nvim": "nvim"
+        "dep": "dep",
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_2"
       }
     },
     "systems": {
