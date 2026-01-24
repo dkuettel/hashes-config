@@ -18,7 +18,7 @@ h=${0:a:h:h}
 
 (
     cd $h/main
-    flake update dep
+    nix flake update dep
     git commit -m lock -- flake.lock
     git push
 )
